@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK8 Street Credit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="streetCreditBar" class="street-credit-container">
+        <div class="street-credit-panel">
+            <div class="street-credit-header">
+                <div class="street-credit-icon"><i class="fas fa-gun"></i></div>
+                <div class="street-credit-info">
+                    <div class="street-credit-level">
+                        <span id="levelText">Level 1 - Nováček</span>
+                    </div>
+                    <div class="street-credit-points">
+                        <span id="pointsText">0 / 50 XP</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="street-credit-progress">
+                <div class="progress-container">
+                    <div id="progressBar" class="progress-bar">
+                        <div class="progress-shimmer"></div>
+                    </div>
+                </div>
+                <div class="multiplier-badge">
+                    <span id="multiplierText">×1.0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="policeAlert" class="police-alert-container">
+        <div class="police-alert-panel">
+            <div class="police-alert-header">
+                <div class="police-alert-icon">🚨</div>
+                <div class="police-alert-title">HLÁŠENÍ PRODEJE DROG</div>
+            </div>
+            
+            <div class="police-alert-content">
+                <div class="police-alert-details">
+                    <div class="police-alert-detail">
+                        <span class="police-alert-label">Droga:</span>
+                        <span id="alertDrugType" class="police-alert-value police-alert-drug">Cannabis</span>
+                    </div>
+                    <div class="police-alert-detail">
+                        <span class="police-alert-label">Koordináty:</span>
+                        <span id="alertCoords" class="police-alert-value police-alert-coords">152.30, -1004.23</span>
+                    </div>
+                    <div class="police-alert-detail">
+                        <span class="police-alert-label">Čas:</span>
+                        <span id="alertTime" class="police-alert-value">12:34</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="police-alert-footer">
+                <div class="police-alert-instruction">
+                    📍 Označeno na mapě
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
