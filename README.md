@@ -184,7 +184,7 @@ Config.StreetCredit = {
 
 ### 🐛 **Bug Report**
 Pro nahlášení chyb nebo návrhů kontaktuj:
-- **Discord:** sk8
+- **Discord:** skinnycigan
 - **GitHub:** Issues tab
 
 ### ❓ **FAQ**
